@@ -40,7 +40,7 @@ public class Video implements AcoesVideo {
         
         int nova;
         
-        nova = (int) ((this.avaliacao + avaliacao)/this.views);
+        nova = (int)((this.avaliacao + avaliacao)/this.views);
         
         this.avaliacao = nova;
     }

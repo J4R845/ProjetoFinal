@@ -19,7 +19,8 @@ public class Visualizacao {
     public void avaliar(int nota){
         this.filme.setAvaliacao(nota);
     }
-    public void avalizr(float porc){
+    
+    public void avaliar(float porc){
         
         int tot = 0;
         
@@ -58,7 +59,8 @@ public class Visualizacao {
 
     @Override
     public String toString() {
-        return "Visualizacao{" + "espectador=" + espectador + ", filme=" + filme + '}';
+        return "Visualizacao{" + "espectador=" + 
+                espectador + ", filme=" + filme + '}';
     }
     
     
